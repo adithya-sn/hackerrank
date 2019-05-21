@@ -2,8 +2,8 @@
 
 #!/bin/bash
 
-x=5
-y=2
+read x
+read y
 
 echo $((x+y))
 echo $((x-y))
